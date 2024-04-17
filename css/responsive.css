@@ -1055,12 +1055,11 @@
 
 
 		 .slider {
-			background: yellow;
-			height: 400px;
+			height: 485px;
 		}
 		
 		.slider .video-container {
-			height: 300px !important; /* Add !important to override any other conflicting styles */
+			height: 500px !important; /* Add !important to override any other conflicting styles */
 		}
 		
 		.slider .video-container video {
