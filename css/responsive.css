@@ -1027,24 +1027,49 @@
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 	.accordion_container{
-
 		/* fix the responsiveness of cards */
 	}
-
 	.accordion_label{
-
 		font-size: 8px;
-		
 	}
 
-.slider{
+
+/* .slider{
 	background: yellow;
+	height: 400px;
+
 }
 
  .slider .video-container{
-		/* display: none; */
+		height: 400px;
+		
 	}
-	
+
+	.video{
+		object-fit: contain;
+		height: 400px;
+
+	}
+		 */
+
+
+
+		 .slider {
+			background: yellow;
+			height: 400px;
+		}
+		
+		.slider .video-container {
+			height: 300px !important; /* Add !important to override any other conflicting styles */
+		}
+		
+		.slider .video-container video {
+			height: 100%; /* Make the video fill the container height */
+			width: 100%; /* Ensure the video fills the container width */
+			object-fit: cover; /* Ensure the video covers the container without distortion */
+		}
+
+
 
 .section{
 	padding:50px 0px;
