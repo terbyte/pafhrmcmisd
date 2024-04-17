@@ -1,0 +1,44 @@
+<div class="wraper">
+    <div class="div-1">
+      <div class="content">
+        <h1>First Div</h1>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio consectetur harum, velit exercitationem expedita illum numquam et a? Rem est esse quas nulla saepe quis blanditiis vitae sed laboriosam quasi?
+      </div>
+    </div>
+    <div class="div-2">
+      <div class="content">
+        <h1>Second Div</h1>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis amet commodi nisi beatae illo similique explicabo modi deleniti obcaecati, voluptatibus consequatur dolor distinctio rerum, cupiditate ducimus saepe laborum facere ad!
+      </div>
+    </div>
+  </div>
+
+  <style>
+  .wraper{
+  width: 100%;
+  height: 330px;
+  background: #000;
+  display: flex;
+}
+
+.div-1{
+  width: calc( 50% - 40px) ;
+  height: 100%;
+  background: #ff005b;
+}
+
+.div-2{
+  width: calc( 50% + 40px );
+  height: 100%;
+  background: #17274c;
+  border-left: 80px solid #ff005b;
+  border-bottom: 330px solid transparent;
+  box-sizing: border-box;
+}
+
+.content{
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+}
+  </style>

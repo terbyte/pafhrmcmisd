@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+
+</head>
+
+<body>
+
+        <div class="accordion">
+
+            <div>
+                <input type="checkbox" name="example_accordion" id="section1" class="accordion__input">
+
+                <label for="section1" class="accordion__label">question number 1</label>
+
+                <div class="accordioncontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure possimus, archite\
+                        cto deserunt dolorum molestias necessitatibus re
+                        pudiandae repellendus consequatur quae saepe nemo voluptatum ex cum, odio doloremque inventore soluta rem?</p>
+                </div>
+            
+            </div>
+
+            <div>
+                <input type="checkbox" name="example_accordion" id="section2" class="accordion__input">
+
+                <label for="section2" class="accordion__label">question number 1</label>
+
+                <div class="accordioncontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure possimus, archite\
+                        cto deserunt dolorum molestias necessitatibus re
+                        pudiandae repellendus consequatur quae saepe nemo voluptatum ex cum, odio doloremque inventore soluta rem?</p>
+                </div>
+            
+            </div>
+
+            <div>
+                <input type="checkbox" name="example_accordion" id="section3" class="accordion__input">
+
+                <label for="section3" class="accordion__label">question number 1</label>
+
+                <div class="accordioncontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi iure possimus, archite\
+                        cto deserunt dolorum molestias necessitatibus re
+                        pudiandae repellendus consequatur quae saepe nemo voluptatum ex cum, odio doloremque inventore soluta rem?</p>
+                </div>
+            
+            </div>
+
+
+        </div>
+    
+</body>
+
+
+<style>
+    .accordion{
+        max-width: 400px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: 'quicksand',sans-serif;
+        background:#009578;
+
+    }
+
+    .accordion label ,
+
+    .accordioncontent{
+        padding: 14px 20px;
+
+
+    }
+
+    .accordion label {
+
+
+        display: block;
+        color:  white;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
+        transition: background 0.1s;
+    }
+
+
+    .accordion__label:hover{
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .accordion__label::after{
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        width: 12px;
+        height: 6px;
+        /* background-image: url(); */
+        background-size: contain;
+        transition: transform 0.4s;
+        
+
+    }
+
+    .accordioncontent{
+        background-color: #ffffff;
+        line-height: 1.6;
+        font-size: 0.85rem;
+        display: none;
+    }
+
+    .accordion__input{
+        display:none
+    }
+
+
+    .accordion__input:checked ~ .accordioncontent{
+        display: block;
+    }
+
+    .accordion__input:checked ~ .accordioncontent::after{
+        transform: translateY(-50%) rotate(0.5turn);
+
+
+    }
+
+</style>
+</html>
