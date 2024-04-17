@@ -1037,6 +1037,10 @@
 		
 	}
 
+.slider{
+	background: yellow;
+}
+
  .slider .video-container{
 		/* display: none; */
 	}
