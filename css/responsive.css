@@ -402,19 +402,21 @@
 
 .card-hover-panel{
 	/* display: none; */
+	/* background-color: red; */
+
 
 }
 
 .card1 {
 	position:relative;
-	width: 270px;
-    height: 270px;
+	width: 300px;
+    height: 300px;
 	
     
 }
 .card2 {
-	width: 270px;
-    height: 270px;
+	width: 300px;
+    height: 300px;
     
 }
 
@@ -1035,6 +1037,15 @@
 
 
 }
+
+
+
+
+
+/* Mobile Screen */
+
+
+
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
 	.accordion_container{
@@ -1078,6 +1089,28 @@
 			width: 100%; /* Ensure the video fills the container width */
 			object-fit: cover; /* Ensure the video covers the container without distortion */
 		}
+
+
+
+		.card-hover-panel{
+			/* background:blue; */
+
+		}
+		
+		.card-hover-panel .card1{
+			display:inline-block;
+			left: 7%;
+			width: 375px;
+			height: 375px;
+			
+		}
+		.card-hover-panel .card2{
+			
+			display:inline-block;
+			left: 7%;
+			width: 375px;
+			height: 375px;
+		}	
 
 
 
@@ -1358,3 +1391,29 @@
 
 
 }
+
+
+
+
+@media only screen and (max-width: 414px) {
+
+	.card-hover-panel{
+		/* background-color: yellow;	 */
+	}
+	
+	.card-hover-panel .card1{
+		display:inline-block;
+		left: 4%;
+		width: 350px;
+		height: 350px;
+		
+	}
+	
+	.card-hover-panel .card2{
+		display:inline-block;
+		left: 4%;
+		width: 350px;
+		height: 350px;
+	}	
+	
+	}
