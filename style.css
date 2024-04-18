@@ -4692,3 +4692,29 @@ html{
 	padding-bottom: 1rem;
   }
 
+
+
+
+
+
+  /* RELATED LINKS */
+  .logocontainer {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	flex-direction: column; /* Change to column layout */
+	align-items: center;
+	text-align: center; /* Center-align text */
+}
+
+.linklogo {
+	max-width: 100px;
+	height: auto;
+	margin-bottom: 10px; /* Add margin below the logo */
+}
+
+.link {
+	text-decoration: none;
+	color: #333;
+}
