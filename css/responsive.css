@@ -1048,6 +1048,88 @@
 
 /* Mobile Screen */
 @media only screen and (max-width: 450px) {
+
+
+
+	.header .header-inner {
+		width: 100%;
+		/* z-index: 333; */
+		position: absolute;
+		padding-bottom: 100px;
+		/* background: #fff; */
+		background:#0b4a7a /* Adjust colors as needed */	
+	
+	}
+
+	.header .header-inner .inner .main-menu .navigation .nav{
+		display: none;
+
+	}
+
+	.header .header-inner .inner .main-menu .navigation .menu-button{
+		left: 700%;
+
+	}
+
+	.header .header-inner .inner .main-menu .navigation .menu-button{
+		display:block;
+		position:fixed;
+    	        /* Adjusts vertical alignment, so it's slightly below the top edge */
+    	left: 325px;         /* Aligns to the far left within the parent container */
+    	       /* Keeps the button above other elements */
+
+		
+		
+	}
+	
+	
+
+	nav ul{
+		width: 100%;
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	  }
+
+	  nav li{
+		height: 50px;
+	  }
+	  nav a{
+		height: 100%;
+  		padding: 0 15px;
+  		text-decoration: none;
+  		display: flex;
+  		align-items: center;
+  		color: black;
+	  }
+
+	  .sidebar{
+		position: fixed;
+		top: 0; 
+		right: 0;
+		height: 100vh;
+		width: 20vh;
+		background-color: #0b4a7a;
+		/* backdrop-filter: blur(12px); */
+		box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+		list-style: none;
+		display: none;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		/* overflow: ; */
+	  } 	
+	
+
+
+	
+
+	
+
+
+
+
 	.accordion_container{
 		/* fix the responsiveness of cards */
 	}

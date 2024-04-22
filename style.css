@@ -6,6 +6,18 @@ body{
 	color:#888;
 }
 
+.header .header-inner .inner .main-menu .menu-button{
+
+/* .header .header-inner .inner .main-menu .navigation .menu-button{ */
+	display: none;
+	
+}
+
+.header .header-inner .inner .main-menu .navigation .sidebar{
+	display: none;
+	
+}
+
 
 
 .join-us {
