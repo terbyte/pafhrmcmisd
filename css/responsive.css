@@ -1066,6 +1066,10 @@
 
 	}
 
+	.header .header-inner .inner .main-menu .navigation .sidebar a{
+		color: white;
+	}
+
 	.header .header-inner .inner .main-menu .navigation .menu-button{
 		left: 700%;
 
@@ -1076,7 +1080,7 @@
 		position:fixed;
     	        /* Adjusts vertical alignment, so it's slightly below the top edge */
     	left: 325px;         /* Aligns to the far left within the parent container */
-    	       /* Keeps the button above other elements */
+    	       /* Keeps the button above other elements index is*/
 
 		
 		
