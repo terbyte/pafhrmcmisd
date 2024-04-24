@@ -4734,50 +4734,84 @@ html{
 
 /* 			REQUIREMENTS 			*/
 
-.img-banner{
-	/* display: non; */
-	width: 100%;
-	padding: 0;
-	top: 0;
-
-}
-
-.img-banner img{
-	/* display: non; */
-	width: 100%;
-	height: 70%;
-	padding: 0;
-	top: 0;
-	/* display: none; */
-	/* object-fit: cover; */
-}
 
 
- h1{
-	/* display: none; */
-}
 
-.mainbody{
-	/* display: grid; */
+.img-banner-container {
+	position: relative; /* Allows absolute positioning of child elements */
+	display: flex; /* Use flexbox to align children */
+	justify-content: center; /* Center the image horizontally */
+	width: 100%; /* Ensure the container takes full width */
+	height: 10%;
+	/* top: -250px; */
 	
+	
+  }
+  
+  .img-banner-container img {
+	width: 100%;
+	max-height: 300px;
+	
+	
+  }
 
+
+	.text-overlay {
+	
+		text-align: center; /* Optional: Align text in the center */
+
+		text-align: center; /* Optional: Align text in the center */
+		font-size: 28px;
+		background-color: #0e172d;
+
+	}
+
+	.text-overlay h1 {
+		left: 50%; /* Centers the text horizontally */
+		color:white; /* Ensures text readability over the overlay */
+		text-align: center; /* Optional: Align text in the center */
+		font-size: 25px;
+	}
+	.text-overlay p {
+		top: 90%; /* Centers the text vertically */
+		left: 50%; /* Centers the text horizontally */
+		color: yellow; /* Ensures text readability over the overlay */
+		text-align: center; /* Optional: Align text in the center */
+		font-size: 40px;
+		margin: 20px;
+
+	}
+
+
+  .main-top{
+   text-align: center;
+ 	 }
+  .mainbody {
+	justify-content: space-between; /* Aligns items to the ends */
+	display: flex;
+	justify-content: flex-start; /* Aligns items to the start (left) */
+  }
+
+
+  .mainbody .main-left{
+	/* background-color: red; */
+  }
+
+
+
+/* .mainbody .main-left{
+	margin-left: 0; 
+	max-width: 50%;
+	font-size: 20px;
+  	padding: 10px; 
+	
 }
-
-
-.mainbody .main-left{
-	background-color: yellow;
-
-
-}
+	 */
 
 
 
-.mainbody .main-right{
-
-	background-color: red;
 
 
-}
 
 
 
