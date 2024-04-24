@@ -4771,6 +4771,8 @@ html{
 		color:white; /* Ensures text readability over the overlay */
 		text-align: center; /* Optional: Align text in the center */
 		font-size: 25px;
+		background-color: #0e172d;
+		margin-top: 0;
 	}
 	.text-overlay p {
 		top: 90%; /* Centers the text vertically */
@@ -4779,23 +4781,112 @@ html{
 		text-align: center; /* Optional: Align text in the center */
 		font-size: 40px;
 		margin: 20px;
+		background-color: #0e172d;
+		margin-bottom: 16px;
+
 
 	}
 
 
   .main-top{
    text-align: center;
+   /* margin-top: 80px; */
+   padding: -1;
+   background-color: #03045e;
+   margin-top:-20px;
+   margin-bottom:-15px;
+   color: white;
+
+
  	 }
+
+
   .mainbody {
 	justify-content: space-between; /* Aligns items to the ends */
 	display: flex;
 	justify-content: flex-start; /* Aligns items to the start (left) */
+	margin-top: 80px;
+	background-color: #03045e;
+	margin: 0px;
+	padding: 30px;
   }
 
 
   .mainbody .main-left{
 	/* background-color: red; */
+	margin-left: 100px;
+	margin-right: 50px;
+	background-color: #00509d;
+	border: 5px solid white; /* 2px width, solid style, black color */
+}
+
+  .mainbody .main-right{
+	/* background-color: red; */
+	margin-left: 100px;
+	margin-right: 50px;
+	background-color: #00509d;
+	border: 5px solid white; /* 2px width, solid style, black color */
+	border-radius: 5px;
+	  }
+
+  .mainbody .main-left h1{
+	/* background-color: red; */
+	background-color: #00b4d8;
+	color: #000;
+	width: 100%;
+	text-align: center;
   }
+
+  .mainbody .main-right h1{
+	/* background-color: red; */
+	background-color: #f9dc5c;
+	color: #000;
+	width: 100%;
+	text-align: center;
+  }
+
+
+
+  .mainbody .main-left h2{
+	/* background-color: red; */
+	background-color: #00b4d8;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	color: black	;
+  }
+
+
+  .mainbody .main-right h2{
+	/* background-color: red; */
+	background-color: #fae588;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	color: black;
+  }
+
+  .mainbody .main-left li{
+	/* background-color: red; */
+	color: #fff;
+	
+  }
+  .mainbody .main-right li{
+	/* background-color: red; */
+	color: #fff;
+	
+  }
+
+
+  
+
+
+  .main-bottom{
+
+	text-align: center;
+	margin-top: 90px;
+	   }
+
 
 
 
