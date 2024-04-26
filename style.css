@@ -19,6 +19,12 @@ body{
 }
 
 
+.header .header-inner .inner .main-menu .menu-button{
+
+	display: none;
+}
+
+
 
 .join-us {
 	position: absolute;
@@ -4737,6 +4743,14 @@ html{
 
 
 
+.requirementsbody{
+   background-color: #03045e;
+	
+}
+
+
+
+
 .img-banner-container {
 	position: relative; /* Allows absolute positioning of child elements */
 	display: flex; /* Use flexbox to align children */
@@ -4763,6 +4777,8 @@ html{
 		text-align: center; /* Optional: Align text in the center */
 		font-size: 28px;
 		background-color: #0e172d;
+		padding: 15px;
+
 
 	}
 
@@ -4772,7 +4788,7 @@ html{
 		text-align: center; /* Optional: Align text in the center */
 		font-size: 25px;
 		background-color: #0e172d;
-		margin-top: 0;
+		/* margin-top: -5px; */
 	}
 	.text-overlay p {
 		top: 90%; /* Centers the text vertically */
@@ -4793,120 +4809,194 @@ html{
    /* margin-top: 80px; */
    padding: -1;
    background-color: #03045e;
-   margin-top:-20px;
+   /* margin-top:px; */
    margin-bottom:-15px;
    color: white;
-
-
  	 }
 
 
-  .mainbody {
-	justify-content: space-between; /* Aligns items to the ends */
+  /* .mainbody {
+	justify-content: space-between; 
 	display: flex;
-	justify-content: flex-start; /* Aligns items to the start (left) */
+	justify-content: flex-start; 
 	margin-top: 80px;
 	background-color: #03045e;
 	margin: 0px;
 	padding: 30px;
   }
+ */
 
-
-  .mainbody .main-left{
+   .main-left{
 	/* background-color: red; */
 	margin-left: 100px;
 	margin-right: 50px;
-	background-color: #00509d;
+	/* background-color: #00509d; */
 	border: 5px solid white; /* 2px width, solid style, black color */
 }
-
-  .mainbody .main-right{
+	.main-left h1{
 	/* background-color: red; */
-	margin-left: 100px;
-	margin-right: 50px;
+	/* background-color: #f9f9f9; */
+	color: #444444;
+	width: 100%;
+	text-align: center;
+  }
+  .main-left h2{
+	/* background-color: red; */
+	/* background-color: #f9f9f9; */
+	color: black;
+	width: 100%;
+	text-align: center;
+  }
+  .main-left li{
+	/* background-color: red; */
+	color: #444444;
+	font-size: 25px;
+	
+  }
+
+
+  .main-right{
+	/* background-color: red; */
+	/* margin-left: 100px; */
+	/* margin-right: 50px; */
 	background-color: #00509d;
 	border: 5px solid white; /* 2px width, solid style, black color */
 	border-radius: 5px;
 	  }
-
-  .mainbody .main-left h1{
-	/* background-color: red; */
-	background-color: #00b4d8;
-	color: #000;
-	width: 100%;
-	text-align: center;
-  }
-
-  .mainbody .main-right h1{
+	.main-right h1{
 	/* background-color: red; */
 	background-color: #f9dc5c;
 	color: #000;
 	width: 100%;
+	font-size: 25px;
 	text-align: center;
-  }
-
-
-
-  .mainbody .main-left h2{
-	/* background-color: red; */
-	background-color: #00b4d8;
-	color: #fff;
-	width: 100%;
-	text-align: center;
-	color: black	;
-  }
-
-
-  .mainbody .main-right h2{
-	/* background-color: red; */
-	background-color: #fae588;
-	color: #fff;
-	width: 100%;
-	text-align: center;
-	color: black;
-  }
-
-  .mainbody .main-left li{
-	/* background-color: red; */
-	color: #fff;
-	
-  }
-  .mainbody .main-right li{
-	/* background-color: red; */
-	color: #fff;
-	
-  }
-
+	}
+	.main-right h2{
+		/* background-color: red; */
+		background-color: #fae588;
+		color: #fff;
+		width: 100%;
+		text-align: center;
+		color: black;
+		font-size: 15px;
+	  }
 
   
+
+
+  .main-right li{
+	/* background-color: red; */
+	color: #000;
+	
+  }
+
 
 
   .main-bottom{
 
 	text-align: center;
 	margin-top: 90px;
+	background-color: #03045e;
+
 	   }
 
 
 
 
-/* .mainbody .main-left{
-	margin-left: 0; 
-	max-width: 50%;
-	font-size: 20px;
-  	padding: 10px; 
+
+
+
+
+
+
+	 .scrollablemodal-div {
+		border: 2px solid #ccc; /* Optional border for visibility */
+		padding: 10px; /* Padding for some space inside the div */
+		max-height: 600px; /* Maximum height for the div */
+		max-width: 600px; /* Maximum height for the div */
+
+
+
+		overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+		background: #f9f9f9; /* Light background for contrast */
+	}
+
+	 /* MY  MODALS */
+
+	         /* Styles for the modal backdrop */
+			 .modal {
+				display: none; /* Hidden by default */
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+				justify-content: center;
+				align-items: center;
+				z-index: 9999c;
+			}
 	
-}
-	 */
+			/* Styles for the modal content */
+			.modal-content {
+				background: white;
+				padding: 20px;
+				border-radius: 10px;
+				/* text-align: center; */
+				position: relative; /* For positioning the close button */
+				max-width: 200px;
+				/* max-width: 50%; */
+				max-width: 100%;
+				max-height: 100%;
 
-
-
-
-
-
-
-
-
+				animation: fadeIn 0.3s; /* Smooth animation on open */
+				text-align: left; /* Ensures text is aligned left */
+			}
+			.modal-content ul {
+				list-style-type: disc; /* Ensures bullets are visible */
+				padding-left: 20px; 
+			}
+	
+			
+			/* Close button style */
+			.close {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				font-size: 20px;
+				cursor: pointer;
+			}
+	
+			/* Style for the Apply Now button */
+			.apply-now {
+				padding: 10px 20px;
+				background: #3498DB; /* Blue color */
+				color: white;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+				text-transform: uppercase;
+				font-weight: bold;
+				margin-top: 20px; /* To provide some space */
+				margin-left: 40%;
+			}
+	
+			.apply-now:hover {
+				background: #0056b3; /* Darker on hover */
+			}
+	
+			/* Animation for opening the modal */
+			@keyframes fadeIn {
+				from {
+					opacity: 0;
+					transform: scale(0.9);
+				}
+				to {
+					opacity: 1;
+					transform: scale(1);
+				}
+			}
+			
 
 
 

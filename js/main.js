@@ -353,3 +353,73 @@ function showSidebar(){
 	sidebar.style.display = 'none'
 	
   }
+
+
+
+
+//   MY MODALS FOR EP
+       // Get references to elements
+	   const modal = document.getElementById("myModal");
+	   const openModalBtn = document.getElementById("openModalBtn");
+	   const closeModalBtn = document.getElementById("closeModalBtn");
+
+	   // Function to open the modal
+	   openModalBtn.addEventListener("click", () => {
+		   modal.style.display = "flex";
+	   });
+
+	   // Function to close the modal
+	   closeModalBtn.addEventListener("click", () => {
+		   modal.style.display = "none";
+	   });
+
+	   // Close the modal when clicking outside the content
+	   modal.addEventListener("click", (event) => {
+		   if (event.target === modal) {
+			   modal.style.display = "none";
+		   }
+	   });
+
+
+
+//   MY MODALS OFFICER
+     // Get references to elements
+	 const modalEP = document.getElementById("myModalEP");
+	 const openModalBtnEP = document.getElementById("openModalBtnEP");
+	 const closeModalBtnEP = document.getElementById("closeModalBtnEP");
+	 // Function to open the modal
+	 openModalBtnEP.addEventListener("click", () => {
+	   modalEP.style.display = "flex";
+	 });
+	 // Function to close the modal
+	 closeModalBtnEP.addEventListener("click", () => {
+	   modalEP.style.display = "none";
+	 });
+	 // Close the modal when clicking outside the content
+	 modalEP.addEventListener("click", (event) => {
+	   if (event.target === modalEP) {
+		   modalEP.style.display = "none";
+	   }
+	 });
+
+
+
+// APPLY NOW BUTTON TO 950
+
+const redirectBtn = document.getElementById("redirectBtn");
+
+        // Add a click event listener to the button
+        redirectBtn.addEventListener("click", () => {
+            // Redirect to the specified URL
+            window.location.href = "404.html"; // The target URL
+        });
+
+
+const redirectBtnEP = document.getElementById("redirectBtnEP");
+
+        // Add a click event listener to the button
+        redirectBtnEP.addEventListener("click", () => {
+            // Redirect to the specified URL
+            window.location.href = "404.html"; // The target URL
+        });
+
