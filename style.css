@@ -4850,9 +4850,10 @@ html{
 	.main-left h1{
 	/* background-color: red; */
 	/* background-color: #f9f9f9; */
-	background-color: #f9dc5c;
+	background-color: #132F58;
 	width: 100%;
 	text-align: center;
+	color: white;
   }
   .main-left h2{
 	/* background-color: red; */
@@ -4861,7 +4862,8 @@ html{
 	width: 100%;
 	text-align: center;
 	margin-top: 10px;
-	background-color: #fae588;
+	background-color: #39ACE5;
+	color: white;
 
   }
   .main-left li{
@@ -4996,7 +4998,8 @@ html{
 				text-transform: uppercase;
 				font-weight: bold;
 				margin-top: 20px; /* To provide some space */
-				margin-left: 40%;
+				width: 100%;
+				height:40px ;
 			}
 	
 			.apply-now:hover {
