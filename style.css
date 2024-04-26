@@ -1,6 +1,19 @@
+@font-face {
+	font-family: "MyCustomFont"; /* Give a name to the font-family */
+	src: url("fonts/DIN.ttf"); 
+}
+
+
+
+@font-face {
+	font-family: "MyCustomFont2"; /* Give a name to the font-family */
+	src: url("fonts/stratum-no1-2.ttf"); 
+}
+
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'MyCustomFont', sans-serif;
+
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
@@ -550,6 +563,7 @@ body{
 	display: flex;
 	/* flex-wrap: wrap; */
 
+	font-family: 'MyCustomFont2', sans-serif;
 
 }
 
@@ -4836,7 +4850,7 @@ html{
 	.main-left h1{
 	/* background-color: red; */
 	/* background-color: #f9f9f9; */
-	color: #444444;
+	background-color: #f9dc5c;
 	width: 100%;
 	text-align: center;
   }
@@ -4846,11 +4860,16 @@ html{
 	color: black;
 	width: 100%;
 	text-align: center;
+	margin-top: 10px;
+	background-color: #fae588;
+
   }
   .main-left li{
 	/* background-color: red; */
 	color: #444444;
 	font-size: 25px;
+	/* margin-top: 10px; */
+	line-height: 35px;
 	
   }
 
@@ -4865,28 +4884,29 @@ html{
 	  }
 	.main-right h1{
 	/* background-color: red; */
-	background-color: #f9dc5c;
-	color: #000;
+	color: black;
 	width: 100%;
-	font-size: 25px;
 	text-align: center;
+	/* margin-top: 10px; */
+	background-color: #f9dc5c;
 	}
 	.main-right h2{
 		/* background-color: red; */
-		background-color: #fae588;
-		color: #fff;
+		color: black;
 		width: 100%;
 		text-align: center;
-		color: black;
-		font-size: 15px;
+		margin-top: 10px;
+		background-color: #fae588;
 	  }
 
   
 
 
   .main-right li{
-	/* background-color: red; */
-	color: #000;
+	color: #444444;
+	font-size: 25px;
+	/* margin-top: 10px; */
+	line-height: 35px;
 	
   }
 
@@ -4914,8 +4934,6 @@ html{
 		padding: 10px; /* Padding for some space inside the div */
 		max-height: 600px; /* Maximum height for the div */
 		max-width: 600px; /* Maximum height for the div */
-
-
 
 		overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
 		background: #f9f9f9; /* Light background for contrast */
@@ -4999,4 +5017,36 @@ html{
 			
 
 
+/* 
+			.main-right{
+			
+				background-color: #00509d;
+				border: 5px solid white; 
+				border-radius: 5px;
+				  }
+				.main-right h1{
+		
+				background-color: #f9dc5c;
+				color: #000;
+				width: 100%;
+				font-size: 25px;
+				text-align: center;
+				}
+				.main-right h2{
+					
+					color: #fff;
+					width: 100%;
+					text-align: center;
+					color: black;
+					font-size: 15px;
+				  }
+			
+			  
+			
+			
+			  .main-right li{
 
+				color: #000;
+				
+			  } */
+			
