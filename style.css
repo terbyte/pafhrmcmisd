@@ -2329,9 +2329,9 @@ body{
 	border-color:transparent;
 }
 /* News Single */
-.news-single {
+.news-single.section {
 	padding: 60px 0 90px;
-	background: #f8f8f8;
+	background-color: #D3d9d4;
 }
 .news-single .single-main {
 	
@@ -2355,6 +2355,7 @@ body{
     align-items: center; /* Center content vertically */
     height: 300px; /* Set the height of the container */
     /* border: 1px solid black; 	 */
+	
 	
 }
 
