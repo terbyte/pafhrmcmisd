@@ -1225,7 +1225,7 @@
 		.card-hover-panel .card1{
 			display:inline-block;
 			left: 7%;
-			width: 375px;
+			width: 370px;
 			height: 375px;
 			
 		}
@@ -1233,7 +1233,7 @@
 			
 			display:inline-block;
 			left: 7%;
-			width: 375px;
+			width: 370px;
 			height: 375px;
 		}	
 
@@ -1247,14 +1247,14 @@
 		
 		
 		.card-hover-panel .card1 .details{
-			top: 200px;
+			top: 160px;
 			bottom: 0px;
 		}
 		.card-hover-panel .card2 .details{
-			top: 200px;
+			top: 160px;
 			bottom: 0px;
 		}.card-hover-panel .card3 .details{
-			top: 200px;
+			top: 130px;
 			bottom: 0px;
 		}
 
@@ -1272,13 +1272,31 @@
 
 		.card-hover-panel .card1 .details h3{
 			font-size: 20px;
+			margin-top: 5px;
+
 		}
 		.card-hover-panel .card2 .details h3{
 			font-size: 20px;
+			margin-top: 5px;
+
 
 		}
 		.card-hover-panel .card3 .details h3{
-			font-size: 15px;
+			font-size: 20px;
+			margin-top: 5px;
+
+		}
+
+		.card-hover-panel .card1 .details button{
+			margin-top: 5px;
+
+		}
+		.card-hover-panel .card2 .details button{
+			margin-top: 5px;
+
+		}
+		.card-hover-panel .card3 .details button{
+			margin-top: 5px;
 
 		}
 
@@ -1299,7 +1317,7 @@
 	margin-bottom: 10px;
 }
 .section-title p {
-	font-size: 13px;
+	font-size: 20px;
 }
 .btn {
 	padding: 11px 20px;
