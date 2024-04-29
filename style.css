@@ -4428,7 +4428,10 @@ body{
 .card-hover-panel{
 	/* background:#014f86; */
 	background-color: #212a31;
-	
+  	justify-content: center; /* Horizontally center */
+  	align-items: center; /* Vertically center */
+	display: flex;
+
 	
 
 
@@ -4437,7 +4440,6 @@ body{
 .card-hover-panel .card1{
 	/* float: none; */
 	display:inline-block;
-	left: 20%;
 	/* transform: skew(-20deg); */
 	margin: 10px;
 }
@@ -4445,7 +4447,6 @@ body{
 .card-hover-panel .card2{
 	/* float: none; */
 	display:inline-block;
-	left: 22%;
 	/* transform: skew(-20deg); */
 
 	margin: 10px;
@@ -4454,7 +4455,6 @@ body{
 
 .card-hover-panel .card3{
 	display:inline-block;
-	left: 24%;
 	margin: 10px;
 
 }
@@ -4771,20 +4771,28 @@ body{
 
 
 
-.card1 .details h1{
+.card1  h1{
+	position: relative;
     color: #fbf754;
 	text-align: center;
+	top: 20%;
+
 }
 
-.card2 .details h1{
+.card2  h1{
+	position: relative;
+
     color: #fbf754;
 	text-align: center;
+	top: 15%;
+
 }
-.card3 .details h1{
-	
+.card3 h1{
+	position: relative;
     color: #fbf754;
 	text-align: center;
-	
+	top: 15%;
+
 }
 
 

@@ -403,6 +403,8 @@
 .card-hover-panel{
 	/* display: none; */
 	/* background-color: red; */
+	display: flex;
+    flex-direction: column; /* Horizontal layout */
 
 
 }
@@ -1247,15 +1249,15 @@
 		
 		
 		.card-hover-panel .card1 .details{
-			top: 160px;
-			bottom: 0px;
+			/* top: 160px;
+			bottom: 0px; */
 		}
 		.card-hover-panel .card2 .details{
-			top: 160px;
-			bottom: 0px;
+			/* top: 160px;
+			bottom: 0px; */
 		}.card-hover-panel .card3 .details{
-			top: 130px;
-			bottom: 0px;
+			/* top: 130px;
+			bottom: 0px; */
 		}
 
 		.card-hover-panel .card1 .details h1{
@@ -1270,10 +1272,40 @@
 
 		}
 
+
+		.card1  h1{
+			text-align: center;
+			left: 10px;
+			top: 10%;
+	
+		}
+		
+		.card2  h1{
+		
+			color: #fbf754;
+			text-align: center;
+			font-size: 30px;
+			bottom: 15px;
+			top: 15%;
+		
+		}
+		.card3 h1{
+			color: #fbf754;
+			text-align: center;
+			font-size: 20px;
+			bottom: 15px;
+			top: 5%;
+		
+		}
+
 		.card-hover-panel .card1 .details h3{
 			font-size: 20px;
+			
 			margin-top: 5px;
+			margin-bottom: 40px;
+			
 
+			
 		}
 		.card-hover-panel .card2 .details h3{
 			font-size: 20px;
@@ -1289,6 +1321,10 @@
 
 		.card-hover-panel .card1 .details button{
 			margin-top: 5px;
+			left: 20%;
+			position: absolute;
+			bottom: 0;
+
 
 		}
 		.card-hover-panel .card2 .details button{
@@ -1297,6 +1333,7 @@
 		}
 		.card-hover-panel .card3 .details button{
 			margin-top: 5px;
+			bottom: 5px;
 
 		}
 
@@ -1589,31 +1626,41 @@
 
 	.card-hover-panel{
 		/* background-color: yellow;	 */
+		flex-direction: column; /* Horizontal layout */
+
 	}
 	
 	.card-hover-panel .card1{
 		display:inline-block;
-		left: 6%;
+		left: 2%;
 		width: 350px;
 		height: 350px;
+		
 		
 	}
 	
 	.card-hover-panel .card2{
 		display:inline-block;
-		left: 6%;
+		left: 2%;
 		width: 350px;
 		height: 350px;
+		
 	}
 	.card-hover-panel .card3{
 		display:inline-block;
-		left: 6%;
+		left: 2%;
 		width: 350px;
 		height: 350px;
 	}	
+
+
+
+	
 		
 	
 	}
+
+
 
 
 
