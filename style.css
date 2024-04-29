@@ -4692,7 +4692,6 @@ body{
     padding: 20px;
     z-index: 2;
     transition: 1s;
-	
 
 
 }
@@ -4700,6 +4699,7 @@ body{
 .card1:hover .details{
     bottom: 40px;
 }
+
 
 .card2:hover .details{
     bottom: 40px;
@@ -4768,23 +4768,30 @@ body{
 .card3 .details .logo{
     max-width: 180px;
 }
-.card1 .details h1{
+
+
+
+.card1 h1{
+	position: relative;
     color: #fbf754;
 	text-align: center;
-
+	top: 25%;
 }
 
-.card2 .details h1{
+.card2  h1{
+    position: relative;
     color: #fbf754;
 	text-align: center;
-
+	top: 20%;
 }
-.card3 .details h1{
-	
+.card3  h1{
+    position: relative;
     color: #fbf754;
 	text-align: center;
-
+	top: 20%;
 }
+
+
 
 .card1 .details h3{
 
