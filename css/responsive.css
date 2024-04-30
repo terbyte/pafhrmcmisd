@@ -1653,6 +1653,68 @@
 		height: 350px;
 	}	
 
+	
+
+	/* related links */
+
+	.linklogo {
+	/* max-width: ; */
+	height: auto;
+	margin-bottom: 10px; /* Add margin below the logo */
+}
+
+
+
+
+.linksss {
+	text-decoration: none;
+	color: #333;
+	
+
+}
+
+
+.linksss .logo{
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+	
+}
+
+.logos-container {
+    display: grid;                /* Use CSS Grid for layout */
+    grid-template-columns: repeat(2, 2fr);  /* 3 columns of equal width */
+    gap: 10px;  
+    max-width: 800px;              /* Centered layout */
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Style for rows */
+.links-row {
+	
+    display: flex;             /* Use Flexbox to align columns */
+    justify-content: space-between;  /* Space between columns */
+    margin-bottom: 10px;       /* Space between rows */
+
+	
+	
+}
+
+.column {
+    flex: 1;                   /* Make each column take equal space */
+    padding: 10px;             /* Padding for inner spacing */
+    background-color: #2e3944; /* Background color for visualization */
+    text-align: center;        /* Centered text */
+    border: 1px solid #ccc;    /* Border for visual separation */
+	text-align: center;
+	min-width: 230px;
+
+}
+
+
+
+
 
 
 	
