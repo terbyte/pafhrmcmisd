@@ -1688,6 +1688,7 @@
     max-width: 800px;              /* Centered layout */
     margin: 0 auto;
     padding: 10px;
+	
 }
 
 /* Style for rows */
@@ -1709,6 +1710,8 @@
     border: 1px solid #ccc;    /* Border for visual separation */
 	text-align: center;
 	min-width: 230px;
+	color:#ccc;
+
 
 }
 
