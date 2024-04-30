@@ -2072,6 +2072,7 @@ body{
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
+	
 }
 .blog .single-news .news-head{
 	position:relative;
@@ -2363,8 +2364,10 @@ body{
 .news-single .news-head img{
 	width:100%;
 	height:100%;
-	max-width:300px ;
-	max-height: 300px;
+	max-width:500px;
+	max-height: 400px;
+	object-fit: contain;
+
 	
 }
 
@@ -4917,7 +4920,7 @@ html{
   }
   .blogs .blog {
 	position: relative;
-	background-color: #8fabba ;
+	background-color: #2e3944 ;
 	border-radius: 5px;
 	box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
 	transition: all 0.4s ease-in-out;
@@ -4951,7 +4954,7 @@ html{
 	margin-bottom: 0.7rem;
 	transition: all 0.4s ease-in-out;
 	cursor: pointer;
-	color: #2e3944;
+	color: #fbf754;
   }
   .blogs .blog .blog-text h4:hover {
 	color: #fbf754;
@@ -4960,23 +4963,24 @@ html{
 	color: white;
 	line-height: 2rem;
 	padding-bottom: 1rem;
-	color: #124e66;
+	color: white;
 	font-size: 15px;
 
   }
 
+  
 
 
 
 
 
   /* RELATED LINKS */
-  .logocontainer {
+  .single-logo-row{
 	position: fixed;
 	top: 20px;
 	left: 20px;
 	display: flex;
-	flex-direction: column; /* Change to column layout */
+	flex-direction:initial; /* Change to column layout */
 	align-items: center;
 	text-align: center; /* Center-align text */
 }
@@ -4990,7 +4994,63 @@ html{
 .linksss {
 	text-decoration: none;
 	color: #333;
+	
+
 }
+
+
+
+
+.logos-container {
+    display: grid;                /* Use CSS Grid for layout */
+    grid-template-columns: repeat(2, 1fr);  /* 3 columns of equal width */
+    grid-template-rows: repeat(3, 1fr);     /* 4 rows */
+    gap: 10px;  
+    max-width: 800px;              /* Centered layout */
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Style for rows */
+.links-row {
+	
+    display: flex;             /* Use Flexbox to align columns */
+    justify-content: space-between;  /* Space between columns */
+    margin-bottom: 10px;       /* Space between rows */
+	
+}
+
+/* Style for columns */
+.column {
+    flex: 1;                   /* Make each column take equal space */
+    padding: 10px;             /* Padding for inner spacing */
+    background-color: lightgray; /* Background color for visualization */
+    text-align: center;        /* Centered text */
+    border: 1px solid #ccc;    /* Border for visual separation */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* 			REQUIREMENTS 			*/
