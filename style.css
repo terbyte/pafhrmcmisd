@@ -1,26 +1,23 @@
-
-
-
 @font-face {
 	font-family: "MyCustomFont"; /* Give a name to the font-family */
-	src: url("static/fonts/DIN.ttf"); 
+	src: url("fonts/DIN.ttf"); 
 }
 
 
 
 @font-face {
 	font-family: "MyCustomFont2"; /* Give a name to the font-family */
-	src: url("static/fonts/stratum-no1-2.ttf"); 
+	src: url("fonts/stratum-no1-2.ttf"); 
 }
 
 
-body {
-	font-family: 'MyCustomFont', sans-serif; /* Apply the custom font */
+body{
+    font-family: 'MyCustomFont', sans-serif;
+
 	font-weight: 400;
-	font-size: 14px;
-	color: #888;
+	font-size:14px;
+	color:#888;
 }
-
 
 .header .header-inner .inner .main-menu .menu-button{
 
@@ -326,6 +323,7 @@ body {
 .header.style2 .get-quote {
 	margin-top: 0;
 }
+
 .header .single-widget {
 	position: relative;
 	float: left;
@@ -364,8 +362,6 @@ body {
 .header .single-widget.btn{
 	margin-left:0;
 }
-
-
 /* Dropdown Menu */
 .header .nav li .dropdown {
 	background: #fff;
@@ -373,7 +369,7 @@ body {
 	position: absolute;
 	left:-20px;
 	top: 100%;
-	z-index: 99;
+	z-index: 999;
 	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 	box-shadow: 0px 3px 5px #3333334d;
@@ -2260,9 +2256,6 @@ body {
 	opacity:1;
 	visibility:visible;
 }
-
-
-
 /* Recent Posts */
 .main-sidebar .single-post {
 	position: relative;
@@ -2276,61 +2269,17 @@ body {
 }
 .main-sidebar .single-post .image img{
 	float: left;
-	width: 100%;
-	height: 100%;
-	margin-right: 20px;
-}
-/* .main-sidebar .single-post .content{
-	margin-top:260px;
-	font-weight: 900;
-	text-align:center;
-} */
-
-.main-sidebar .single-post .content h5 {
-	line-height: 18px;
-	/* margin-top:300px; */
-
-}
-.main-sidebar .single-post .content h5 a {
-	color: #2C2D3F;
-	font-weight: 500;
-	font-size: 14px;
-	font-weight: 900;
-	margin-top: 10px;
-	display: block;
-	margin-bottom: 10px;	
-	margin-top: 0;
-	text-align:center;
-}
-
-
-
-/* start of prev commanders */
-/* Recent Posts */
-.main-sidebar .prev-com {
-	position: relative;
-	border-bottom: 1px solid #ddd;
-	display: inline-block;
-	padding: 17px 0;
-}
-.main-sidebar .prev-comt:last-child{
-	padding-bottom:0px;
-	border:none;
-}
-.main-sidebar .prev-com .image img{
-	float: left;
 	width: 80px;
 	height: 80px;
 	margin-right: 20px;
-
 }
-.main-sidebar .prev-com .content{
+.main-sidebar .single-post .content{
 	padding-left:100px;
 }
-.main-sidebar .prev-com .content h5 {
+.main-sidebar .single-post .content h5 {
 	line-height: 18px;
 }
-.main-sidebar .prev-com .content h5 a {
+.main-sidebar .single-post .content h5 a {
 	color: #2C2D3F;
 	font-weight: 500;
 	font-size: 14px;
@@ -2340,19 +2289,9 @@ body {
 	margin-bottom: 10px;
 	margin-top: 0;
 }
-
-/* end of prev commanders */
-
-
-
-
-
-
-
-
-
-
-
+.main-sidebar .single-post .content h5 a:hover{
+	color:#1A76D1;
+}
 .main-sidebar .single-post .content .comment li{
 	color:#888;
 	display:inline-block;
@@ -2429,6 +2368,8 @@ body {
 	max-width:500px;
 	max-height: 400px;
 	object-fit: contain;
+
+	
 }
 
 
@@ -2445,14 +2386,12 @@ body {
 	color: #252525;
 	font-weight: 600;
 }
+
 .news-single .single-main .dateTitle  {
 	text-align: center;
 	font-size: large;
 	background-color: red;
 }
-
-
-
 
 
 .news-single .news-title a:hover {
@@ -3488,17 +3427,6 @@ body {
 /*=========================
    Start Contact Us CSS
 ===========================*/
-.contact-us .container .row{
-	background-color: #fff;
-
-}
-
-.contact-us{
-	background-color: #D3d9d4;
-
-}
-
-
 .contact-us .inner{
 	box-shadow: 0px 0px 10px #00000024;
 	border-radius: 10px;
@@ -5311,27 +5239,11 @@ html{
 	 .scrollablemodal-div {
 		border: 2px solid #ccc; /* Optional border for visibility */
 		padding: 10px; /* Padding for some space inside the div */
-		max-height: 100%; /* Maximum height for the div */
-		max-width: 100%; /* Maximum height for the div */
+		max-height: 600px; /* Maximum height for the div */
+		max-width: 600px; /* Maximum height for the div */
 
 		overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
 		background: #f9f9f9; /* Light background for contrast */
-		
-	}
-	.main-left h1{
-		font-size: 20px;
-		max-width: 100%;
-
-	}
-	.main-right h1{
-		font-size: 20px;
-		max-width: 100%;
-	}
-
-	.scrollablemodal-div h2{
-		font-size: 20px;
-		max-width: 100%;
-
 	}
 
 	 /* MY  MODALS */
@@ -5347,14 +5259,9 @@ html{
 				background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 				justify-content: center;
 				align-items: center;
-				z-index: 9999;
+				z-index: 9999c;
 			}
-
-
-			
-
-		
-			/* Styles for the modal content */
+	
 			/* Styles for the modal content */
 			.modal-content {
 				background: white;
@@ -5370,28 +5277,6 @@ html{
 				animation: fadeIn 0.3s; /* Smooth animation on open */
 				text-align: left; /* Ensures text is aligned left */
 			}
-			.modal-content ul {
-				list-style-type: disc; /* Ensures bullets are visible */
-				padding-left: 20px; 
-			}
-
-			.modal-contentforPrevComs {
-				background: white;
-				padding: 20px;
-				border-radius: 10px;
-				/* text-align: center; */
-				position: relative; /* For positioning the close button */
-				max-width: 200px;
-				max-width: 50%;
-				/* max-width: 100%; */
-				max-height: 100%;
-
-				animation: fadeIn 0.3s; /* Smooth animation on open */
-				text-align: left; /* Ensures text is aligned left */
-			}
-
-
-
 			.modal-content ul {
 				list-style-type: disc; /* Ensures bullets are visible */
 				padding-left: 20px; 
@@ -5474,131 +5359,3 @@ html{
 				
 			  } */
 			
-/* See More Button */
-
-.see-more-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.see-more-btn {
-    font-size: 16px;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: inline-flex;
-    align-items: center;
-}
-
-.see-more-btn .arrow-down {
-    margin-left: 8px;
-    transition: transform 0.2s ease;
-}
-
-
-/* Modal of prev commanders */
-
-
-
-/* Modal background overlay */
-
-  .prevComModal {
-    display: none; /* Ensure modal is hidden by default */
-    position: fixed; /* Keep it fixed to the screen */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5); /* Slight transparency */
-    justify-content: center; /* Align the modal center */
-    align-items: center; /* Align the modal center */
-	z-index: 99999;
-
-}
-
-
-
-  
-  
-  /* Modal content box */
-  .modal-content {
-	width: 80%; /* Adjust width as needed */
-	background-color: white;
-	padding: 20px;
-	border-radius: 10px;
-	max-height: 80vh;
-	overflow-y: auto; /* Add scroll if content exceeds modal height */
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Optional shadow for better appearance */
-	position: relative;
-  }
-  
-  .modal-contentforprevcoms {
-	width: 80%; /* Adjust width as needed */
-	background-color: white;
-	padding: 20px;
-	border-radius: 10px;
-	max-height: 80vh;
-	overflow-y: auto; /* Add scroll if content exceeds modal height */
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Optional shadow for better appearance */
-	position: relative;
-  }
-
-
-
-  /* Previous commanding officers grid */
-  .single-widgetprevCom {
-	display: flex;
-	flex-wrap: wrap; /* Allow content to wrap */
-	gap: 10px; /* Space between items */
-  }
-  
-  /* Each previous commanding officer item */
-  .prev-com-modal {
-	display: none; /* Hidden by default */
-	display: flex;
-	width: 19%; /* Ensure 5 items fit in one row (19% x 5 + gaps) */
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: 10px;
-	background-color: #f2f2f2;
-	border-radius: 5px;
-	text-align: center;
-  }
-  
-  .image img {
-	width: 100%; /* Ensure the image fits inside the container */
-	height: auto;
-  }
-  
-  .h8 {
-	font-size: 14px;
-	margin-top: 10px;
-  }
-  
-  ul.comment {
-	list-style: none;
-	padding: 0;
-	margin-top: 5px;
-	font-size: 12px;
-  }
-  
-  /* Close button */
-  .close {
-	position: absolute;
-	top: 10px;
-	right: 20px;
-	color: #aaa;
-	font-size: 28px;
-	font-weight: bold;
-	cursor: pointer;
-	z-index: 99999;
-
-  }
-  
-  .close:hover {
-	color: black;
-  }
