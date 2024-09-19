@@ -1,3 +1,6 @@
+
+
+
 <!doctype html>
 <html class="no-js" lang="zxx">
     <head>
@@ -12,49 +15,47 @@
 		<!-- Title -->
         <title>about us </title>
 		
-		<!-- Favicon -->
-        <link rel="icon" href="img/src/PAFHRMClogo.png">
 
 		
+		<link rel="icon" href= 'img/src/PAFHRMClogo.png' >
+
+		<!-- <link rel="stylesheet" href= 'css/nice-select.css'> -->
+
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet"> -->
 
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- Nice Select CSS -->
-		<link rel="stylesheet" href="css/nice-select.css">
+		<link rel="stylesheet" href= 'css/bootstrap.min.css' >
+		<!-- Nice Select CSS -->	
+		<link rel="stylesheet" href= 'css/nice-select.css'>
 		<!-- Font Awesome CSS -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href= 'css/font-awesome.min.css' >
 		<!-- icofont CSS -->
-        <link rel="stylesheet" href="css/icofont.css">
+        <link rel="stylesheet" href= 'css/icofont.css' >
 		<!-- Slicknav -->
-		<link rel="stylesheet" href="css/slicknav.min.css">
+		<link rel="stylesheet" href= 'css/slicknav.min.css' >
 		<!-- Owl Carousel CSS -->
-        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href= 'css/owl-carousel.css' >
 		<!-- Datepicker CSS -->
-		<link rel="stylesheet" href="css/datepicker.css">
+		<link rel="stylesheet" href= 'css/datepicker.css' >
 		<!-- Animate CSS -->
-        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href= 'css/animate.min.css' >
 		<!-- Magnific Popup CSS -->
-        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href= 'css/magnific-popup.css' >
 		
 		<!-- Medipro CSS -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-		
+        <link rel="stylesheet" href= 'css/normalize.css' >
+        <link rel="stylesheet" href= 'style.css' >
+        <link rel="stylesheet" href= 'css/responsive.css' >
     </head>
     <body>
-	
-		
-		
 	
 		<!-- Header Area -->
 		<header class="header" >
 			<div class="header-inner">
-					<div class="innerLogo">
+					<div class="innerLogo">	
 						<div class="logo">
-							<a href="index.html"><img src="img/src/PAFHRMClogo.png" alt="#"></a>
+							<a href="index.html"><img src= 'img/src/PAFHRMClogo.png'  alt="#"></a>
 						</div>
 					</div>
 					<div class="inner">
@@ -63,31 +64,30 @@
 						<div class="main-menu">
 							<nav class="navigation">
 								<ul class="nav menu">
-									<!-- <li class="active"><a href="#">Home </a></li> -->
-									<li><a href="index.html">HOME</a></li>
+									<li>
+										<!-- <li class="active"><a href="#">Home </a></li> -->
+										<li><a href="index.html">HOME </a></li>
 
-									<li><a href="about-us.html">ABOUT US </a></li>
-									<!-- <li><a href=".AboutUssection">ABOUT US </a></li> -->
-									<!-- <li><a href=".portfolio">ACTIVITIES </a></li> -->
+										<li><a href="about-us.html">ABOUT US </a></li>
+										<!-- <li><a href=".Feedbackssection">FEEDBACK</a></li> -->
+										<li><a href="FAQ.html">FAQ </a></li>
 
-									<li><a href="feedback.html">FEEDBACK</a></li>
-									<!-- <li><a href=".Feedbackssection">FEEDBACK</a></li> -->
-									<li><a href="FAQ.html">FAQ </a></li>
-
-									<!-- <div class="burger-icon">
-										<img src="icons/icons8-menu.svg" alt="Burger Icon">
-									  </div> -->
-									  
+										<!-- <div class="burger-icon">
+											<img src="icons/icons8-menu.svg" alt="Burger Icon">
+										  </div> -->
+										  
+									</li>
+									
 									</ul>
 									<div class="menu-button" onclick="showSidebar()"> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></div>
 									
 									<ul class="sidebar">
 										<li onclick=hideSidebar()><a href="#">    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </a></li>
-										<li><a href="index.html">HOME</a></li>
 										
+										<li><a href="index.html">HOME </a></li>
 										<li><a href="about-us.html">ABOUT US</a></li>
 										
-										<li><a href="feedback.html">FEEDBACK</a></li>
+										<!-- <li><a href="feedback.html">FEEDBACK</a></li> -->
 										<li><a href="FAQ.html">FAQ </a></li>
 										
 									</ul>
@@ -98,7 +98,8 @@
 		</header>
 		
 		<!-- Breadcrumbs -->
-		<div class="breadcrumbs overlay">
+		<div class="breadcrumbs overlay "style="background-image: url('{{ activity.image.url }}'); background-size: cover; background-position: center; background-repeat: no-repeat; padding: 100px 0; position: relative;" >
+
 			<div class="container">
 				<div class="bread-inner">
 					<div class="row">
@@ -126,14 +127,19 @@
 								<div class="single-main">
 									<!-- News Head -->
 									<div class="news-head">
-										<img src="img/src/rescue2.jpg" alt="#">
+										{% placeholder "About-Us Heading Picture" %}
 									</div>
 									<!-- News Title -->
-									<h1 class="news-title"><a href="news-single.html">PAFHRMC History</a></h1>
+									<h1 class="news-title"><a href="news-single.html">PAFHRMC HISTORY</a></h1>
 
 									<div class="news-text">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.</p>
-										<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commod</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque 
+											habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.
+
+											Pellentesque habitant morbi tr
+											
+											istique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra
+											 at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commod</p>
 										<div class="image-gallery">
 											<div class="row">
 												<div class="col-lg-6 col-md-6 col-12">
@@ -148,13 +154,16 @@
 												</div>
 											</div>
 										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.</p>
-										<!-- <blockquote class="overlay">
-											<p>Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commodo et, sodales</p>					
-										</blockquote> -->
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commodo et, sodales id dui.</p>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse</p>
-									</div>
+
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.
+
+											Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commod</p>
+										
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis ultricies tortor, nec sollicitudin lorem sagittis vitae. Curabitur rhoncus commodo rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam.
+
+												Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam nec lacus pulvinar, laoreet dolor quis, pellentesque ante. Cras nulla orci, pharetra at dictum consequat, pretium pretium nulla. Suspendisse porttitor nunc a sodales tempor. Mauris sed felis maximus, interdum metus vel, tincidunt diam. Nam ac risus vitae sem vehicula egestas. Sed velit nulla, viverra non commod</p>
+											
+										</div>
 									<div class="blog-bottom">
 										<!-- Social Share -->
 										<ul class="social-share">
@@ -173,102 +182,352 @@
 		
 						</div>
 					</div>
+
 					<div class="col-lg-4 col-12">
 						<div class="main-sidebar">
 
-							<!-- Single Widget -->
 							<div class="single-widget recent-post">
-								<h3 class="title">Recent update</h3>
-								<!-- Single Post -->
+								<h3 class="title"> Commanding Officer</h3>
+
 								<div class="single-post">
 									<div class="image">
-										<!-- <img src="img/blog-sidebar1.jpg" alt="#"> -->
-										<img src="img/src/rescue2.jpg" alt="#">
+										<img src= 'img/src/CO PAFHRMC.jpg'  alt="#">
 									</div>
 									<div class="content">
-										<h5><a href="#">first news and event.</a></h5>
+										<h5><a>LTCOL ROBERT WENDELL N AUSTRIA PAF </a></h5>
 										<ul class="comment">
-											<li><i class="fa fa-calendar" aria-hidden="true"></i>Jan 11, 2020</li>
-											<!-- <li><i class="fa fa-commenting-o" aria-hidden="true"></i>35</li> -->
+											<li><i class="fa fa-calendar" aria-hidden="true"></i>Mar 05, 2019 - Present</li>
 										</ul>
 									</div>
 								</div>
-								<!-- End Single Post -->
-								<!-- Single Post -->
-								<div class="single-post">
-									<div class="image">
-										<img src="img/src/join.png" alt="#">
-									</div>
-									<div class="content">
-										<h5><a href="#">first news and event</a></h5>
-										<ul class="comment">
-											<li><i class="fa fa-calendar" aria-hidden="true"></i>Mar 05, 2019</li>
-											<!-- <li><i class="fa fa-commenting-o" aria-hidden="true"></i>59</li> -->
-										</ul>
-									</div>
+						</div>
+					</div>
+
+					<div class="main-sidebar">
+
+						<div class="single-widget recent-post">
+							<h3 class="title"> Previous Commanding Officers</h3>
+
+							<div class="prev-com">
+								<div class="image">
+									<img src= 'img/src/PreviousCommanders/14COL DALMACIO.jpg'  alt="#">
 								</div>
-								<!-- End Single Post -->
-								<!-- Single Post -->
-								<div class="single-post">
-									<div class="image">
-										<img src="img/src/Helicopter.jpg" alt="#">
-									</div>
-									<div class="content">
-										<h5><a href="#">first news and event</a></h5>
-										<ul class="comment">
-											<li><i class="fa fa-calendar" aria-hidden="true"></i>June 09, 2019</li>
-											<!-- <li><i class="fa fa-commenting-o" aria-hidden="true"></i>44</li> -->
-										</ul>
-									</div>
+								<div class="content">
+									<h5><a href="#">COL JOAN P DALMACIO PAF</a></h5>
+									<ul class="comment">
+										<i class="fa fa-calendar" aria-hidden="true"></i> 25 Sep 202 - 08 May 2023
+
+									</ul>
 								</div>
-								<!-- End Single Post -->
 							</div>
 
+							
+							<div class="prev-com">
+								<div class="image">
+									<img src= 'img/src/PreviousCommanders/13LTC DILAG.jpg'  alt="#">
+								</div>
+								<div class="content">
+									<h5><a href="#">LTC JOSE ROMUKO Y DILAG PAF</a></h5>
+									<ul class="comment">
+										<i class="fa fa-calendar" aria-hidden="true"></i> 19 Marc 2020 - 25 Sept 2021
+									</ul>
+								</div>
+							</div>
+
+							<!-- See More Button -->
+							<div class="see-more-container">
+								<button id="seeMoreBtn" class="see-more-btn">
+									See More <span class="arrow-down">&#x25BC;</span>
+								</button>
+							</div>
+
+							<!-- Modal -->
+							<div id="prevComModal" class="prevComModal">
+								<div class="modal-contentforprevcoms">
+									<span class="close">&times;</span>
+
+
+									<h3 class="title"> Previous Commanding Officers</h3>
+									<div class="single-widgetprevCom recent-post">
+
+										
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/14COL DALMACIO.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL JOAN P DALMACIO PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i> 25 Sep 202 - 08 May 2023
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/13LTC DILAG.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">LTC JOSE ROMUKO Y DILAG PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i> 19 Marc 2020 - 25 Sept 2021
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/12COL ABUNDABARR.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL ANTONIO RAFAEL H ABUNDABAR PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i> 14 Sept 2018 - 19 Mat 2020
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/11COL DUADICO.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL ADIRANO SJ DUADICO PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i> 06 Sept 2017 - 14 Sept 2018
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/10LTC RETUTA.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">LTC ANGELITO R RETUTA PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i> 19 Sept 2016 - 06 Sept 2017
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/9COL ANGELES.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL LUISITO F ANGELES JR PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i> 18 Sept 2015 - 19 Sept 2016
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/8COL ESCARCHA.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL ERICK Q ESCARCHA PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i> 04 June 2014 - 18 Sept 2015
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/7LTC ESTOESTA.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">LTC JOEL NEIL EDWIN G ESTOESTA PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i>16 Oct 2013 - 04 June 2014
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/6COL HONASAN.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL RENE RAOUL ROMMEL DC HONASAN PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i>04 Mar 2013 - 16 Oct 2013
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/5COL RAMOS.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL JOSELITO B RAMOS PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i>11 Sept 2012 - 04 Mar 2013
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/4COL MARQUEZ.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL CRESENCIANO A MARQUEZ III PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i>16 Feb 2012 - 11 Sept 2012
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/3COL DE VERA.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL EDGAR T DE VERA PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i>26 Aug 2010 - 16 Feb 2012
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/2COL MILAN.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL RICARDO A MILAN PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i>18 Apr 2008 - 26 Aug 2010
+												</ul>
+											</div>
+										</div>
+										<!--  -->
+										<div class="prev-com-modal">
+											<div class="image">
+												<img src= 'img/src/PreviousCommanders/1COL DEL ROSARIO.jpg'  alt="#">
+											</div>
+											<div class="content">
+												<h8><a href="#">COL RAUL L DEL ROSARIO PAF</a></h8>
+												<ul class="comment">
+													<i class="fa fa-calendar" aria-hidden="true"></i>22 Nov 2007 - 18 Apr 2008
+												</ul>
+											</div>
+										</div>
+
+
+
+
+
+
+										
+										
+
+
+
+
+
+									</div>
+
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
 
-		<!-- jquery Min JS -->
-        <script src="js/jquery.min.js"></script>
-		<!-- jquery Migrate JS -->
-		<script src="js/jquery-migrate-3.0.0.js"></script>
+
+				</div>
+			</div>
+
+<script>// Get the modal
+	var modal = document.getElementById("prevComModal");
+	
+	// Get the button that opens the modal
+	var btn = document.getElementById("seeMoreBtn");
+	
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+	
+	// When the user clicks the button, open the modal 
+	btn.onclick = function() {
+		modal.style.display = "flex";
+		// Rotate the arrow
+		btn.querySelector(".arrow-down").style.transform = "rotate(180deg)";
+	}
+	
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+		modal.style.display = "none";
+		// Reset the arrow rotation
+		btn.querySelector(".arrow-down").style.transform = "rotate(0deg)";
+	}
+	
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+			// Reset the arrow rotation
+			btn.querySelector(".arrow-down").style.transform = "rotate(0deg)";
+		}
+	}</script>
+
+		</section>
+		<script src="script.js"></script>
+
+		<!-- jquery Min JS		{%static '' %}		 --> 
+        <script src= 'js/jquery.min.js' ></script>
+		<!-- jquery Migrate JS  -->
+		<script src= 'js/jquery-migrate-3.0.0.js' ></script>
 		<!-- jquery Ui JS -->
-		<script src="js/jquery-ui.min.js"></script>
+		<script src= 'js/jquery-ui.min.js' ></script>
 		<!-- Easing JS -->
-        <script src="js/easing.js"></script>
+        <script src= 'js/easing.js' ></script>
 		<!-- Color JS -->
-		<script src="js/colors.js"></script>
+		<script src= 'js/colors.js' ></script>
 		<!-- Popper JS -->
-		<script src="js/popper.min.js"></script>
+		<script src= 'js/popper.min.js' ></script>
 		<!-- Bootstrap Datepicker JS -->
-		<script src="js/bootstrap-datepicker.js"></script>
+		<script src= 'js/bootstrap-datepicker.js' ></script>
 		<!-- Jquery Nav JS -->
-        <script src="js/jquery.nav.js"></script>
+        <script src= 'js/jquery.nav.js' ></script>
 		<!-- Slicknav JS -->
-		<script src="js/slicknav.min.js"></script>
-		<!-- ScrollUp JS -->
+		<script src= 'js/slicknav.min.js' ></script>
+		<!-- ScrollUp JS  {%static '' %}    -->
         <script src="js/jquery.scrollUp.min.js"></script>
 		<!-- Niceselect JS -->
-		<script src="js/niceselect.js"></script>
+		<script src= 'js/niceselect.js' ></script>
 		<!-- Tilt Jquery JS -->
-		<script src="js/tilt.jquery.min.js"></script>
+		<script src= 'js/tilt.jquery.min.js' ></script>
 		<!-- Owl Carousel JS -->
-        <script src="js/owl-carousel.js"></script>
+        <script src= 'js/owl-carousel.js' ></script>
 		<!-- counterup JS -->
-		<script src="js/jquery.counterup.min.js"></script>
+		<script src= 'js/jquery.counterup.min.js' ></script>
 		<!-- Steller JS -->
-		<script src="js/steller.js"></script>
+		<script src= 'js/steller.js' ></script>
 		<!-- Wow JS -->
-		<script src="js/wow.min.js"></script>
+		<script src= 'js/wow.min.js' ></script>
 		<!-- Magnific Popup JS -->
-		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src= 'js/jquery.magnific-popup.min.js' ></script>
 		<!-- Counter Up CDN JS -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 		<!-- Bootstrap JS -->
-		<script src="js/bootstrap.min.js"></script>
+		<script src= 'js/bootstrap.min.js' ></script>
 		<!-- Main JS -->
-		<script src="js/main.js"></script>
+		<script src= 'js/main.js' ></script>
+
+		<script>function showSidebar(){
+	const sidebar = document.querySelector('.sidebar')
+	sidebar.style.display = 'flex'
+  }
+  function hideSidebar(){
+	const sidebar = document.querySelector('.sidebar')
+	sidebar.style.display = 'none'
+	
+  }
+</script>
     </body>
 </html>
